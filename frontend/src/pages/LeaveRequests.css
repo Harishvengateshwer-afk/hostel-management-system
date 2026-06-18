@@ -1,0 +1,95 @@
+.leave-container {
+    padding: 35px;
+    background: #f5f7fb;
+    min-height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.leave-container h1 {
+    color: #0f172a;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+thead {
+    background: #1e293b;
+    color: white;
+}
+
+th {
+    padding: 16px;
+    font-weight: 600;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eef2f7;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+}
+
+.approve-btn {
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.approve-btn:hover {
+    background: #16a34a;
+}
+
+.reject-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reject-btn:hover {
+    background: #dc2626;
+}
+
+/* Status Badges */
+
+.status-pending {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status-approved {
+    background: #dcfce7;
+    color: #166534;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status-rejected {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}

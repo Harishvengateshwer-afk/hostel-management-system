@@ -1,0 +1,190 @@
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #f8fafc,
+        #e2e8f0
+    );
+}
+/* Sidebar */
+
+.sidebar {
+    width: 260px;
+    background: #1e293b;
+    color: white;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sidebar li:hover {
+    background: #334155;
+}
+
+/* Main Content */
+
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Header */
+
+.content h1 {
+    color: #0f172a;
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.dashboard-subtitle {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow:
+    0 15px 30px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: left;
+}
+
+.card:hover {
+    transform:
+    translateY(-8px)
+    scale(1.02);
+    box-shadow:
+    0 20px 35px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    color: #0f172a;
+}
+
+.card p {
+    margin-top: 10px;
+    color: #64748b;
+    font-size: 15px;
+}
+
+.card-icon {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+/* Top Navbar */
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:35px;
+}
+
+.admin-profile{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    background:white;
+
+    padding:10px 15px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+}
+
+.profile-circle{
+    width:45px;
+    height:45px;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-weight:bold;
+}
+
+.admin-profile h4{
+    margin:0;
+    color:#0f172a;
+}
+
+.admin-profile span{
+    font-size:13px;
+    color:#64748b;
+}
+
+/* Colored Cards */
+
+.rooms-card{
+    border-top:5px solid #3b82f6;
+}
+
+.students-card{
+    border-top:5px solid #22c55e;
+}
+
+.complaints-card{
+    border-top:5px solid #f97316;
+}
+
+.rooms-card .card-icon{
+    color:#3b82f6;
+}
+
+.students-card .card-icon{
+    color:#22c55e;
+}
+
+.complaints-card .card-icon{
+    color:#f97316;
+}

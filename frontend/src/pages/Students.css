@@ -1,0 +1,108 @@
+.students-container {
+    padding: 35px;
+    background: #f5f7fb;
+    min-height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.students-container h1 {
+    color: #0f172a;
+    margin-bottom: 25px;
+}
+
+/* Form Section */
+
+.student-form {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 15px;
+
+    margin-bottom: 30px;
+}
+
+.student-form input,
+.student-form select {
+    padding: 12px;
+    border: 1px solid #dbe3ee;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.student-form input:focus,
+.student-form select:focus {
+    border-color: #2563eb;
+}
+
+.student-form button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.student-form button:hover {
+    background: #1d4ed8;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+thead {
+    background: #1e293b;
+    color: white;
+}
+
+th {
+    padding: 16px;
+    font-weight: 600;
+}
+
+td {
+    padding: 14px;
+    border-bottom: 1px solid #eef2f7;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+}
+
+.delete-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #dc2626;
+}
+
+/* Search Box (future use) */
+
+.search-box {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #dbe3ee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
