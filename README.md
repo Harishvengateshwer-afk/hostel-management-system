@@ -48,10 +48,6 @@ Hostel Management System
 └── backend
 └── Spring Boot Application
 
-## Screenshots
-
-(Add screenshots here)
-
 ## Future Enhancements
 
 - JWT Authentication
